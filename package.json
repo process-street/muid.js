@@ -1,0 +1,27 @@
+{
+  "name": "muid.js",
+  "version": "1.0.0",
+  "description": "A JavaScript library for converting between UUIDs and Process Street micro UUIDs (\"muids\")",
+  "main": "muid.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.0.1"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/process-street/muid.js.git"
+  },
+  "author": "Cameron McKay <cameron@process.st>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/process-street/muid.js/issues"
+  },
+  "homepage": "https://github.com/process-street/muid.js#readme"
+}
