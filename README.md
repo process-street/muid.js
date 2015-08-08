@@ -1,4 +1,4 @@
-# muid.js
+# muid.js [![Build Status](https://travis-ci.org/process-street/muid.js.svg?branch=master)](https://travis-ci.org/process-street/muid.js)
 
 A JavaScript library for converting between UUIDs and Process Street micro UUIDs ("Muids").
 
