@@ -1,6 +1,6 @@
 {
-  "name": "muid.js",
-  "version": "1.0.0",
+  "name": "node-muid",
+  "version": "1.0.1",
   "description": "A JavaScript library for converting between UUIDs and Process Street micro UUIDs (\"muids\")",
   "main": "muid.js",
   "directories": {

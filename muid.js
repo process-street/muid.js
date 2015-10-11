@@ -165,7 +165,7 @@
 
     // Allow library to be used in browser or node.js
     if (typeof exports !== "undefined") {
-        exports.Muid = Muid;
+        module.exports = Muid;
     }
     else {
         window.Muid = Muid;
