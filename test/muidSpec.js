@@ -1,7 +1,7 @@
 describe('format', function () {
     "use strict";
 
-    var Muid = require('../muid.js').Muid;
+    var Muid = require('../muid.js');
 
     // fromUuid
 
