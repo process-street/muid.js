@@ -2,7 +2,7 @@
 
 A JavaScript library for converting between UUIDs and Process Street micro UUIDs ("Muids").
 
-Muids are URL-safe and take up 31.25% less characters than UUIDs while encoding the same amount of information.bower.json
+Muids are URL-safe and take up 31.25% less characters than UUIDs while encoding the same amount of information.
 
 ## Installation
 
