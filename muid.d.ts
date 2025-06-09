@@ -1,4 +1,4 @@
-declare module "muid" {
+declare module "node-muid" {
   /**
    * Converts a UUID string to a 22-character MUID.
    * @param uuid - A 32-character hexadecimal UUID (dashes optional, case-insensitive).
