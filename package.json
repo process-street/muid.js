@@ -1,5 +1,6 @@
 {
   "name": "node-muid",
+  "type": "module",
   "version": "2.0.0",
   "description": "A JavaScript library for converting between UUIDs and Process Street Muids (i.e. micro UUIDs).",
   "main": "dist/muid.umd.js",
@@ -10,10 +11,11 @@
   },
   "types": "dist/muid.d.ts",
   "devDependencies": {
-    "jest": "^29.7.0",
     "prettier": "^3.5.3"
   },
-  "scripts": {},
+  "scripts": {
+    "fmt": "prettier --write ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/process-street/muid.js.git"
