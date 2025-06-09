@@ -1,3 +1,5 @@
+import { randomUUID } from "crypto";
+
 const UUID_DIGITS = 32;
 const MUID_DIGITS = 22;
 const URL_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=";
@@ -35,6 +37,10 @@ function toUuid(muid) {
   hexes.splice(4, 0, "-");
 
   return hexes.join("");
+}
+
+function randomMuid() {
+  return fromUuid(randomUUID());
 }
 
 function flip(bytes) {
@@ -86,6 +92,6 @@ function encode64(bytes, alphabet) {
 }
 
 // Export the public API
-export const Muid = { fromUuid, toUuid };
-export { fromUuid, toUuid };
+export const Muid = { fromUuid, toUuid, randomMuid };
+export { fromUuid, toUuid, randomMuid };
 export default Muid;

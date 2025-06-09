@@ -1,7 +1,7 @@
 {
   "name": "node-muid",
   "type": "module",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "A JavaScript library for converting between UUIDs and Process Street Muids (i.e. micro UUIDs).",
   "main": "./dist/muid.umd.js",
   "module": "./dist/muid.esm.js",

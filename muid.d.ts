@@ -16,10 +16,17 @@ declare module "node-muid" {
   export function toUuid(muid: string): string;
 
   /**
+   * Generates a random MUID.
+   * @returns A 22-character base64 URL-safe MUID.
+   */
+  export function randomMuid(): string;
+
+  /**
    * The Muid object for module-style and browser global access.
    */
   export const Muid: {
     fromUuid: typeof fromUuid;
     toUuid: typeof toUuid;
+    randomMuid: typeof randomMuid;
   };
 }

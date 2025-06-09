@@ -1,6 +1,15 @@
 import { Muid } from "../muid.js";
 
 describe("Muid", function () {
+  describe("randomMuid", () => {
+    it("should generate a random muid", function () {
+      const muid = Muid.randomMuid();
+      expect(muid).toMatch(/^[A-Za-z0-9_-]{22}$/);
+      const toUuid = Muid.toUuid(muid);
+      const fromUuid = Muid.fromUuid(toUuid);
+      expect(fromUuid).toBe(muid);
+    });
+  });
   describe("fromUuid", () => {
     it("should convert a lowercase, dashed UUID to a muid", function () {
       var uuid = "19ab5c32-038b-4ba3-841f-b427f65e1943";
