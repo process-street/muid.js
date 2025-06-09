@@ -7,7 +7,7 @@ Muids are URL-safe and take up 31.25% less characters than UUIDs while encoding 
 ## Installation
 
 ```bash
-npm install muid.js
+npm install node-muid
 ```
 
 ## Notes
@@ -35,12 +35,6 @@ var uuid = Muid.toUuid(muid);
 
 The motivation behind Muids is that they take up 22 characters instead of 32. This leads to Muids taking up 31.25% less
 space in URLs than UUIDs.
-
-## Author
-
-| [![twitter/cdmckay](https://gravatar.com/avatar/b181c028e6b51d408450e12ab68bf25c?s=70)](https://twitter.com/cdmckay "Follow @cdmckay on Twitter") |
-|---|
-| [Cameron McKay](https://cdmckay.org/) |
 
 ## License
 

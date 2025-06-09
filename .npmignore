@@ -1,0 +1,4 @@
+# Ignore everything except dist
+*
+!dist
+!dist/**
