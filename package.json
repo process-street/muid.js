@@ -1,19 +1,19 @@
 {
   "name": "node-muid",
-  "version": "1.0.2",
-  "description": "A JavaScript library for converting between UUIDs and Process Street micro UUIDs (\"muids\")",
-  "main": "muid.js",
-  "directories": {
-    "test": "test"
+  "version": "2.0.0",
+  "description": "A JavaScript library for converting between UUIDs and Process Street Muids (i.e. micro UUIDs).",
+  "main": "dist/muid.umd.js",
+  "module": "dist/muid.esm.js",
+  "exports": {
+    "require": "./dist/muid.umd.js",
+    "import": "./dist/muid.esm.js"
   },
-  "dependencies": {},
+  "types": "dist/muid.d.ts",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-jasmine": "^2.0.1"
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3"
   },
-  "scripts": {
-    "test": "gulp"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/process-street/muid.js.git"
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/process-street/muid.js/issues"
   },
-  "homepage": "https://github.com/process-street/muid.js#readme"
+  "homepage": "https://github.com/process-street/muid.js#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }

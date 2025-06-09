@@ -6,16 +6,8 @@ Muids are URL-safe and take up 31.25% less characters than UUIDs while encoding 
 
 ## Installation
 
-In a browser:
-
-```html
-<script src="muid.js"></script>
-```
-
-Via [bower](http://bower.io/):
-
 ```bash
-bower install muid.js
+npm install muid.js
 ```
 
 ## Notes
