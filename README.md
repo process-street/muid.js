@@ -12,9 +12,10 @@ npm install node-muid
 
 ## Notes
 
-This method will provides a global `Muid` object. That means that once you include it, you can use it like this:
+You need to import `Muid` from the `node-muid` package to use this library.
 
 ```javascript
+import { Muid } from 'node-muid';
 var uuid = '19ab5c32-038b-4ba3-841f-b427f65e1943';
 var muid = Muid.fromUuid(uuid);
 // = 'hB-0J_ZeGUMZq1wyA4tLow'
