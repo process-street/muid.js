@@ -18,10 +18,8 @@ declare module "muid" {
   /**
    * The Muid object for module-style and browser global access.
    */
-  const Muid: {
+  export const Muid: {
     fromUuid: typeof fromUuid;
     toUuid: typeof toUuid;
   };
-
-  export default Muid;
 }
